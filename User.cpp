@@ -8,6 +8,6 @@ User::~User() {
 
 }
 
-void User::createUser(std::string name, int age) {
+void User::createUser(std::string name, int id, bool verified) {
 
 }

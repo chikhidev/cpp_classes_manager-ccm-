@@ -15,7 +15,16 @@ now you are good to go 🥳
 ```
     ccm create <name-of-class> <name-of-class1> <name-of-class2>
     ccm remove <name-of-class> <name-of-class1> <name-of-class2>
+    ccm addto <name-of-class> <method-return-type> <method-name> <function-arg1> <function-arg2> <function-arg3>
 ```
+Examples:
+```
+    ccm create user player "football player" food
+    ccm remove User Food
+    ccm addto  User             void  createUser  std::string:name  int:id  bool:verified
+    ccm addto  FootballPlayer   int   totalScore  int:match_id
+```
+
 By default the name of the classes forced to become in CAMEL-CASE
 
 use ```ccm help``` to display all the available operations in time!

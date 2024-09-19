@@ -9,7 +9,7 @@ class User {
 		User();
 		~User();
 	private:
-		void createUser(std::string name, int age);
+		void createUser(std::string name, int id, bool verified);
 };
 
 #endif
