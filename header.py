@@ -4,10 +4,10 @@ def header_content(class_name):
     content = "#ifndef " + class_name.upper() + "_H\n"
     content += "#define " + class_name.upper() + "_H\n\n"
     content += "class " + class_name + " {\n"
+    content += "\tprivate:\n"
     content += "\tpublic:\n"
     content += "\t\t" + class_name + "();\n"
     content += "\t\t~" + class_name + "();\n"
-    content += "\tprivate:\n"
     content += "};\n\n"
     content += "#endif\n"
     return content
