@@ -5,7 +5,6 @@ i will be adding more features in the future by time (in-chaellah)
 ## Setup
 ```
     git clone https://github.com/chikhidev/cpp_classes_manager-ccm-.git ~/ccm
-    cd ccm
     echo "alias ccm='python3 ~/ccm/ccm.py'" >> ~/.bashrc
     source ~/.bashrc
 ```
